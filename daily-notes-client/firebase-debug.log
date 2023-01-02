@@ -1,0 +1,180 @@
+[debug] [2023-01-01T18:56:19.982Z] ----------------------------------------------------------------------
+[debug] [2023-01-01T18:56:19.984Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-01T18:56:19.984Z] CLI Version:   11.16.0
+[debug] [2023-01-01T18:56:19.985Z] Platform:      win32
+[debug] [2023-01-01T18:56:19.985Z] Node Version:  v18.12.0
+[debug] [2023-01-01T18:56:19.994Z] Time:          Mon Jan 02 2023 00:56:19 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-01-01T18:56:19.994Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-01T18:56:19.997Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-01-01T18:56:20.099Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-01T18:56:20.099Z] > authorizing via signed-in user (minjurrahaman@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\Project\Programming-Hero\SCIC\Job Placement\Daily Notes\todo-list-client
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2023-01-01T18:56:20.923Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-01-01T18:56:20.923Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-01T18:56:38.401Z] Using project from CLI flag: todo-list-1f2d4
+[debug] [2023-01-01T18:56:38.402Z] > refreshing access token with scopes: []
+[debug] [2023-01-01T18:56:38.403Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-01-01T18:56:38.403Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-01T18:56:39.833Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-01-01T18:56:39.833Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-01T18:56:39.849Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 [none]
+[debug] [2023-01-01T18:56:40.645Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 403
+[debug] [2023-01-01T18:56:40.645Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-01-01T18:56:40.645Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-01-01T18:56:40.962Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project todo-list-1f2d4. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-01-01T18:57:19.585Z] ----------------------------------------------------------------------
+[debug] [2023-01-01T18:57:19.587Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-01T18:57:19.587Z] CLI Version:   11.16.0
+[debug] [2023-01-01T18:57:19.587Z] Platform:      win32
+[debug] [2023-01-01T18:57:19.587Z] Node Version:  v18.12.0
+[debug] [2023-01-01T18:57:19.597Z] Time:          Mon Jan 02 2023 00:57:19 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-01-01T18:57:19.598Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-01T18:57:19.671Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-01T18:57:19.671Z] > authorizing via signed-in user (minjurrahaman@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\Project\Programming-Hero\SCIC\Job Placement\Daily Notes\todo-list-client
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-01T18:58:28.993Z] Using project from CLI flag: todo-list-1f2d4
+[debug] [2023-01-01T18:58:28.999Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 [none]
+[debug] [2023-01-01T18:58:30.954Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 403
+[debug] [2023-01-01T18:58:30.955Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-01-01T18:58:30.955Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-01-01T18:58:31.319Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project todo-list-1f2d4. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-01-01T19:09:33.312Z] ----------------------------------------------------------------------
+[debug] [2023-01-01T19:09:33.314Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-01T19:09:33.314Z] CLI Version:   11.19.0
+[debug] [2023-01-01T19:09:33.315Z] Platform:      win32
+[debug] [2023-01-01T19:09:33.315Z] Node Version:  v18.12.0
+[debug] [2023-01-01T19:09:33.324Z] Time:          Mon Jan 02 2023 01:09:33 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-01-01T19:09:33.325Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-01T19:09:33.397Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-01T19:09:33.398Z] > authorizing via signed-in user (minjurrahaman@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\Project\Programming-Hero\SCIC\Job Placement\Daily Notes\todo-list-client
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-01T19:09:46.953Z] Using project from CLI flag: todo-list-1f2d4
+[debug] [2023-01-01T19:09:46.960Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 [none]
+[debug] [2023-01-01T19:09:49.047Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 403
+[debug] [2023-01-01T19:09:49.047Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-01-01T19:09:49.048Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-01-01T19:09:49.547Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project todo-list-1f2d4. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-01-01T19:12:13.493Z] ----------------------------------------------------------------------
+[debug] [2023-01-01T19:12:13.496Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-01T19:12:13.496Z] CLI Version:   11.19.0
+[debug] [2023-01-01T19:12:13.496Z] Platform:      win32
+[debug] [2023-01-01T19:12:13.497Z] Node Version:  v18.12.0
+[debug] [2023-01-01T19:12:13.497Z] Time:          Mon Jan 02 2023 01:12:13 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-01-01T19:12:13.497Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-01T19:12:13.575Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-01T19:12:13.575Z] > authorizing via signed-in user (minjurrahaman@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\Project\Programming-Hero\SCIC\Job Placement\Daily Notes\todo-list-client
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-01T19:12:22.505Z] Using project from CLI flag: todo-list-1f2d4
+[debug] [2023-01-01T19:12:22.507Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 [none]
+[debug] [2023-01-01T19:12:23.351Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 403
+[debug] [2023-01-01T19:12:23.351Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/todo-list-1f2d4 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-01-01T19:12:23.352Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-01-01T19:12:24.806Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\andro\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project todo-list-1f2d4. Please make sure the project exists and your account has permission to access it.
